@@ -15,3 +15,8 @@ run:
 	python3 -m census_predictions.main \
 	--train_data $(TRAIN_DATA) \
 	--eval_data $(EVAL_DATA)
+
+run_mlflow:
+	mlflow run . \
+	-P train_data=census_predictions/data/census_income_learn.csv \
+	-P eval_data=census_predictions/data/census_income_test.csv

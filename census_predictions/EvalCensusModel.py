@@ -3,8 +3,9 @@ Python class for model evaluation
 author: Damien Michelle
 date: 03/09/2021
 """
+import mlflow
 import pandas as pd
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, precision_score, recall_score, f1_score, roc_auc_score
 
 from census_predictions.base_logger import logging
 from census_predictions.config import USELESS_COLS, LABEL_COL, ENCODING_LABEL, RESULTS_OUTPUT_DIR, CURRENT_DIR
@@ -29,6 +30,10 @@ class EvalCensusModel:
             #else load_model(ml_pipeline).predict(eval_data)
         logging.info('SUCCESS - Predictions has been computed')
 
+        #mlflow.sklearn.eval_and_log_metrics(ml_pipeline, eval_data, true_labels, prefix="val_")
+        metrics = self.compute_metrics_score(true_labels, predictions)
+        for metric in [*metrics.keys()]:
+            mlflow.log_metric(metric, metrics[metric])
         self.store_classification_report(true_labels, predictions, type(ml_pipeline).__name__, RESULTS_OUTPUT_DIR)
 
     @staticmethod
@@ -50,3 +55,16 @@ class EvalCensusModel:
                                                            f'/{model_name}_classification_report.csv')
         except (ValueError, TypeError, FileNotFoundError) as err:
             logging.info(f'ERROR - during classification report compute : {err}')
+
+    @staticmethod
+    def compute_metrics_score(true_labels, predictions) -> dict:
+        """
+        Compute precision, recall, f1 score and auc_score metrics
+        :param true_labels: true values to compare with predictions
+        :param predictions: predictions made with the model trained
+        :return: a dict which contains metrics performance
+        """
+        return {'recall': round(recall_score(true_labels, predictions), 4),
+                   'precision': round(precision_score(true_labels, predictions), 4),
+                   'roc_auc': round(roc_auc_score(true_labels, predictions), 4),
+                   'f1_score': round(f1_score(true_labels, predictions), 4)}

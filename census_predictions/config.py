@@ -66,3 +66,10 @@ ENCODING_LABEL = {
     ' - 50000.': 0,
     ' 50000+.': 1
 }
+
+PARAMS_RANDOMFOREST = [
+    'n_estimators',
+    'max_depth',
+    'class_weight',
+    'bootstrap'
+]
