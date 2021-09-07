@@ -4,7 +4,6 @@ author : Damien Michelle
 date: 03/09/2021
 """
 import os
-import optuna
 
 CURRENT_DIR = os.path.dirname(__file__)
 MODEL_OUTPUT_DIR = 'models'

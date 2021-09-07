@@ -72,6 +72,8 @@ class CensusModel(EvalCensusModel, MlPipeline):
     def objective(self, trial):
         with mlflow.start_run(nested=True):
             hp_space = space_rf_hyperparameters(trial)
+            class_weight = self.compute_custom_weights(self.train_labels)
+            hp_space['class_weight'] = class_weight
             model = self.train_randomforest(**hp_space)
             for param in [*hp_space.keys()]:
                 mlflow.log_param(param, model.get_params().get(param))
@@ -109,9 +111,28 @@ class CensusModel(EvalCensusModel, MlPipeline):
             **kwargs,
             n_jobs=-1,
             random_state=42,
-            class_weight='balanced_subsample',
             criterion='entropy'
         )
+
+    @staticmethod
+    def compute_custom_weights(label_series: pd.Series) -> dict:
+        """
+        Compute custom weights for imbalanced data
+        :param label_series: label col values
+        :return: a dict with weights for 0 and 1 custom weights
+        """
+        total = label_series.shape[0]
+        neg = label_series[label_series == 0].shape[0]
+        pos = label_series[label_series == 1].shape[0]
+
+        weight_for_0 = (1 / neg) * (total / 2.0)
+        weight_for_1 = (1 / pos) * (total / 2.0)
+        del total, neg, pos
+
+        return {
+            0: weight_for_0,
+            1: weight_for_1
+        }
 
     @staticmethod
     def store_classification_report(true_labels, predictions, model_name, output_dir):
