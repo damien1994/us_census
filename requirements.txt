@@ -5,3 +5,4 @@ pylint==2.9.6
 scikit-learn==0.24.2
 joblib==0.14.1
 mlflow==1.20.2
+optuna==2.9.1

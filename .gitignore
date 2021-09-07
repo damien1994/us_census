@@ -1,0 +1,6 @@
+# venv
+venv_census/
+
+# Python
+.ipynb_checkpoints
+census_predictions/EvalCensusModel.py

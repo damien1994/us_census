@@ -4,6 +4,7 @@ author : Damien Michelle
 date: 03/09/2021
 """
 import os
+import optuna
 
 CURRENT_DIR = os.path.dirname(__file__)
 MODEL_OUTPUT_DIR = 'models'
@@ -67,9 +68,12 @@ ENCODING_LABEL = {
     ' 50000+.': 1
 }
 
-PARAMS_RANDOMFOREST = [
-    'n_estimators',
-    'max_depth',
-    'class_weight',
-    'bootstrap'
-]
+
+def space_rf_hyperparameters(trial):
+    """
+    Hyperparameters space for random forest
+    """
+    return {
+        'n_estimators': trial.suggest_int("n_estimators", 50, 250, 10),
+        'max_depth': trial.suggest_int("max_depth", 4, 8, 1)
+    }

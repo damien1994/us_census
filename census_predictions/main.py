@@ -8,7 +8,7 @@ import sys
 
 from census_predictions.utils import parse_args, read_file
 from census_predictions.config import COLS
-from census_predictions.TrainCensusModel import TrainCensusModel
+from census_predictions.TrainCensusModel import CensusModel
 from census_predictions.EvalCensusModel import EvalCensusModel
 
 
@@ -16,7 +16,7 @@ def main(train_df, eval_df):
     """
     Main function where Census data intelligence is computed
     """
-    census_continous_training = TrainCensusModel(train_df, eval_df)
+    census_continous_training = CensusModel(train_df, eval_df)
     census_continous_training.compute_census_continuous_training()
 
 
