@@ -17,10 +17,9 @@ from census_predictions.config import USELESS_COLS, LABEL_COL, ENCODING_LABEL, \
 from census_predictions.utils import split_data, encode_label, save_model, \
     safe_creation_directory
 from census_predictions.MlPipeline import MlPipeline
-from census_predictions.EvalCensusModel import EvalCensusModel
 
 
-class CensusModel(EvalCensusModel, MlPipeline):
+class CensusModel(MlPipeline):
     mlflow.set_experiment("Census_predictions_v1")
     mlflow_cb = MLflowCallback(
         tracking_uri='mlruns'
