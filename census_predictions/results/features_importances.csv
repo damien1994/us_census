@@ -1,0 +1,511 @@
+,feature,coefficient
+9,class_of_worker_ Never worked,0.0919
+14,class_of_worker_ State government,0.0751
+10,class_of_worker_ Not in universe,0.0603
+8,class_of_worker_ Local government,0.0354
+2,capital_gains,0.0338
+7,class_of_worker_ Federal government,0.0337
+101,occupation_code_ 39,0.0336
+0,age,0.0311
+17,industry_code_ 1,0.0295
+49,industry_code_ 39,0.0276
+13,class_of_worker_ Self-employed-not incorporated,0.0275
+252,state_of_previous_residence_ Mississippi,0.0269
+21,industry_code_ 13,0.0252
+230,state_of_previous_residence_ Alaska,0.0247
+6,weeks_worked_in_year,0.0241
+353,live_in_this_house_1_year_ago_ No,0.0224
+113,occupation_code_ 8,0.0208
+205,reason_for_unemployment_ Other job loser,0.0191
+189,hispanic_Origin_ Cuban,0.0173
+209,full_or_part_time_employment_stat_ Not in labor force,0.017
+5,num_persons_worked_for_employer,0.0167
+397,country_of_birth_father_ Poland,0.0166
+229,state_of_previous_residence_ Alabama,0.0159
+12,class_of_worker_ Self-employed-incorporated,0.0159
+24,industry_code_ 16,0.0158
+201,reason_for_unemployment_ Job leaver,0.0152
+331,migration_code_change_in_msa_ Nonmover,0.0139
+25,industry_code_ 17,0.0129
+4,divdends_from_stocks,0.0128
+351,migration_code_move_within_reg_ Not in universe,0.0115
+172,major_occupation_code_ Not in universe,0.0107
+250,state_of_previous_residence_ Michigan,0.0107
+170,major_occupation_code_ Handlers equip cleaners etc ,0.0101
+162,major_industry_code_ Social services,0.0094
+3,capital_losses,0.0071
+157,major_industry_code_ Other professional services,0.0059
+319,detailed_household_summary_in_household_ Group Quarters- Secondary individual,0.0057
+163,major_industry_code_ Transportation,0.0056
+38,industry_code_ 29,0.0056
+160,major_industry_code_ Public administration,0.0055
+158,major_industry_code_ Personal services except private HH,0.0045
+31,industry_code_ 22,0.0042
+253,state_of_previous_residence_ Missouri,0.0038
+45,industry_code_ 35,0.0035
+104,occupation_code_ 41,0.0035
+159,major_industry_code_ Private household services,0.0031
+313,detailed_household_and_family_stat_ Secondary individual,0.003
+199,member_of_a_labor_union_ Not in universe,0.0029
+145,major_industry_code_ Communications,0.0028
+206,reason_for_unemployment_ Re-entrant,0.0026
+43,industry_code_ 33,0.0025
+20,industry_code_ 12,0.0024
+135,marital_status_ Divorced,0.0022
+349,migration_code_move_within_reg_ Different state in West,0.0022
+33,industry_code_ 24,0.002
+356,migration_prev_res_in_sunbelt_ ?,0.002
+167,major_occupation_code_ Armed Forces,0.0019
+44,industry_code_ 34,0.0016
+393,country_of_birth_father_ Outlying-U S (Guam USVI etc),0.0014
+16,industry_code_ 0,0.0012
+185,race_ White,0.0012
+395,country_of_birth_father_ Peru,0.0012
+166,major_occupation_code_ Adm support including clerical,0.0011
+34,industry_code_ 25,0.0011
+219,tax_filer_status_ Nonfiler,0.001
+112,occupation_code_ 7,0.0009
+333,migration_code_change_in_msa_ Not in universe,0.0009
+164,major_industry_code_ Utilities and sanitary services,0.0009
+11,class_of_worker_ Private,0.0008
+355,live_in_this_house_1_year_ago_ Yes,0.0008
+240,state_of_previous_residence_ Idaho,0.0008
+165,major_industry_code_ Wholesale trade,0.0007
+19,industry_code_ 11,0.0007
+105,occupation_code_ 42,0.0007
+1,wage_per_hour,0.0007
+123,education_ Associates degree-occup /vocational,0.0007
+32,industry_code_ 23,0.0007
+36,industry_code_ 27,0.0007
+348,migration_code_move_within_reg_ Different state in South,0.0007
+153,major_industry_code_ Manufacturing-nondurable goods,0.0006
+193,hispanic_Origin_ NA,0.0006
+89,occupation_code_ 28,0.0006
+110,occupation_code_ 5,0.0005
+35,industry_code_ 26,0.0005
+194,hispanic_Origin_ Other Spanish,0.0005
+346,migration_code_move_within_reg_ Different state in Midwest,0.0005
+204,reason_for_unemployment_ Not in universe,0.0005
+87,occupation_code_ 26,0.0005
+23,industry_code_ 15,0.0004
+190,hispanic_Origin_ Do not know,0.0004
+120,education_ 7th and 8th grade,0.0004
+180,major_occupation_code_ Transportation and material moving,0.0004
+207,full_or_part_time_employment_stat_ Children or Armed Forces,0.0004
+211,full_or_part_time_employment_stat_ PT for econ reasons usually PT,0.0004
+86,occupation_code_ 25,0.0004
+46,industry_code_ 36,0.0004
+249,state_of_previous_residence_ Massachusetts,0.0003
+149,major_industry_code_ Finance insurance and real estate,0.0003
+28,industry_code_ 2,0.0003
+182,race_ Asian or Pacific Islander,0.0003
+76,occupation_code_ 16,0.0003
+187,hispanic_Origin_ Central or South American,0.0003
+15,class_of_worker_ Without pay,0.0003
+103,occupation_code_ 40,0.0003
+467,country_of_birth_self_ Honduras,0.0003
+124,education_ Bachelors degree(BA AB BS),0.0003
+133,enrolled_in_edu_inst_last_wk_ High school,0.0003
+22,industry_code_ 14,0.0003
+126,education_ Doctorate degree(PhD EdD),0.0002
+77,occupation_code_ 17,0.0002
+202,reason_for_unemployment_ Job loser - on layoff,0.0002
+195,hispanic_Origin_ Puerto Rican,0.0002
+146,major_industry_code_ Construction,0.0002
+179,major_occupation_code_ Technicians and related support,0.0002
+174,major_occupation_code_ Precision production craft & repair,0.0002
+30,industry_code_ 21,0.0002
+148,major_industry_code_ Entertainment,0.0002
+122,education_ Associates degree-academic program,0.0002
+26,industry_code_ 18,0.0002
+109,occupation_code_ 46,0.0002
+224,region_of_previous_residence_ Not in universe,0.0002
+168,major_occupation_code_ Executive admin and managerial,0.0002
+27,industry_code_ 19,0.0002
+354,live_in_this_house_1_year_ago_ Not in universe under 1 year old,0.0002
+29,industry_code_ 20,0.0002
+88,occupation_code_ 27,0.0002
+218,tax_filer_status_ Joint one under 65 & one 65+,0.0002
+242,state_of_previous_residence_ Indiana,0.0002
+216,tax_filer_status_ Joint both 65+,0.0002
+80,occupation_code_ 2,0.0002
+117,education_ 12th grade no diploma,0.0002
+244,state_of_previous_residence_ Kansas,0.0001
+181,race_ Amer Indian Aleut or Eskimo,0.0001
+248,state_of_previous_residence_ Maryland,0.0001
+241,state_of_previous_residence_ Illinois,0.0001
+177,major_occupation_code_ Protective services,0.0001
+398,country_of_birth_father_ Portugal,0.0001
+251,state_of_previous_residence_ Minnesota,0.0001
+237,state_of_previous_residence_ District of Columbia,0.0001
+424,country_of_birth_mother_ Honduras,0.0001
+438,country_of_birth_mother_ Peru,0.0001
+441,country_of_birth_mother_ Portugal,0.0001
+257,state_of_previous_residence_ New Hampshire,0.0001
+481,country_of_birth_self_ Peru,0.0001
+296,detailed_household_and_family_stat_ Grandchild <18 never marr child of subfamily RP,0.0001
+239,state_of_previous_residence_ Georgia,0.0001
+375,country_of_birth_father_ France,0.0001
+232,state_of_previous_residence_ Arkansas,0.0001
+196,sex_ Female,0.0001
+373,country_of_birth_father_ El-Salvador,0.0001
+367,country_of_birth_father_ Canada,0.0001
+385,country_of_birth_father_ Iran,0.0001
+203,reason_for_unemployment_ New entrant,0.0001
+484,country_of_birth_self_ Portugal,0.0001
+386,country_of_birth_father_ Ireland,0.0001
+198,member_of_a_labor_union_ No,0.0001
+197,sex_ Male,0.0001
+364,family_members_under_18_ Not in universe,0.0001
+392,country_of_birth_father_ Nicaragua,0.0001
+388,country_of_birth_father_ Jamaica,0.0001
+360,family_members_under_18_ Both parents present,0.0001
+357,migration_prev_res_in_sunbelt_ No,0.0001
+191,hispanic_Origin_ Mexican (Mexicano),0.0001
+389,country_of_birth_father_ Japan,0.0001
+186,hispanic_Origin_ All other,0.0001
+376,country_of_birth_father_ Germany,0.0001
+184,race_ Other,0.0001
+391,country_of_birth_father_ Mexico,0.0001
+255,state_of_previous_residence_ Nebraska,0.0001
+128,education_ Less than 1st grade,0.0001
+75,occupation_code_ 15,0.0001
+41,industry_code_ 31,0.0001
+78,occupation_code_ 18,0.0001
+118,education_ 1st 2nd 3rd or 4th grade,0.0001
+47,industry_code_ 37,0.0001
+37,industry_code_ 28,0.0001
+73,occupation_code_ 13,0.0001
+67,industry_code_ 9,0.0001
+131,education_ Some college but no degree,0.0001
+129,education_ Masters degree(MA MS MEng MEd MSW MBA),0.0001
+154,major_industry_code_ Medical except hospital,0.0001
+53,industry_code_ 42,0.0001
+18,industry_code_ 10,0.0001
+155,major_industry_code_ Mining,0.0001
+71,occupation_code_ 11,0.0001
+156,major_industry_code_ Not in universe or children,0.0001
+54,industry_code_ 43,0.0001
+40,industry_code_ 30,0.0001
+401,country_of_birth_father_ South Korea,0.0
+403,country_of_birth_father_ Thailand,0.0
+402,country_of_birth_father_ Taiwan,0.0
+169,major_occupation_code_ Farming forestry and fishing,0.0
+400,country_of_birth_father_ Scotland,0.0
+399,country_of_birth_father_ Puerto-Rico,0.0
+404,country_of_birth_father_ Trinadad&Tobago,0.0
+396,country_of_birth_father_ Philippines,0.0
+50,industry_code_ 4,0.0
+394,country_of_birth_father_ Panama,0.0
+51,industry_code_ 40,0.0
+52,industry_code_ 41,0.0
+390,country_of_birth_father_ Laos,0.0
+48,industry_code_ 38,0.0
+406,country_of_birth_father_ Vietnam,0.0
+405,country_of_birth_father_ United-States,0.0
+415,country_of_birth_mother_ Ecuador,0.0
+422,country_of_birth_mother_ Haiti,0.0
+421,country_of_birth_mother_ Guatemala,0.0
+420,country_of_birth_mother_ Greece,0.0
+419,country_of_birth_mother_ Germany,0.0
+418,country_of_birth_mother_ France,0.0
+417,country_of_birth_mother_ England,0.0
+416,country_of_birth_mother_ El-Salvador,0.0
+414,country_of_birth_mother_ Dominican-Republic,0.0
+387,country_of_birth_father_ Italy,0.0
+413,country_of_birth_mother_ Cuba,0.0
+412,country_of_birth_mother_ Columbia,0.0
+411,country_of_birth_mother_ China,0.0
+410,country_of_birth_mother_ Canada,0.0
+409,country_of_birth_mother_ Cambodia,0.0
+408,country_of_birth_mother_ ?,0.0
+407,country_of_birth_father_ Yugoslavia,0.0
+55,industry_code_ 44,0.0
+379,country_of_birth_father_ Haiti,0.0
+56,industry_code_ 45,0.0
+64,industry_code_ 6,0.0
+62,industry_code_ 50,0.0
+363,family_members_under_18_ Neither parent present,0.0
+362,family_members_under_18_ Mother only present,0.0
+361,family_members_under_18_ Father only present,0.0
+63,industry_code_ 51,0.0
+359,migration_prev_res_in_sunbelt_ Yes,0.0
+358,migration_prev_res_in_sunbelt_ Not in universe,0.0
+65,industry_code_ 7,0.0
+366,country_of_birth_father_ Cambodia,0.0
+66,industry_code_ 8,0.0
+68,occupation_code_ 0,0.0
+352,migration_code_move_within_reg_ Same county,0.0
+69,occupation_code_ 1,0.0
+350,migration_code_move_within_reg_ Nonmover,0.0
+70,occupation_code_ 10,0.0
+347,migration_code_move_within_reg_ Different state in Northeast,0.0
+365,country_of_birth_father_ ?,0.0
+61,industry_code_ 5,0.0
+57,industry_code_ 46,0.0
+377,country_of_birth_father_ Greece,0.0
+384,country_of_birth_father_ India,0.0
+383,country_of_birth_father_ Hungary,0.0
+382,country_of_birth_father_ Hong Kong,0.0
+381,country_of_birth_father_ Honduras,0.0
+380,country_of_birth_father_ Holand-Netherlands,0.0
+42,industry_code_ 32,0.0
+378,country_of_birth_father_ Guatemala,0.0
+58,industry_code_ 47,0.0
+368,country_of_birth_father_ China,0.0
+59,industry_code_ 48,0.0
+374,country_of_birth_father_ England,0.0
+60,industry_code_ 49,0.0
+372,country_of_birth_father_ Ecuador,0.0
+371,country_of_birth_father_ Dominican-Republic,0.0
+370,country_of_birth_father_ Cuba,0.0
+369,country_of_birth_father_ Columbia,0.0
+423,country_of_birth_mother_ Holand-Netherlands,0.0
+430,country_of_birth_mother_ Italy,0.0
+425,country_of_birth_mother_ Hong Kong,0.0
+468,country_of_birth_self_ Hong Kong,0.0
+488,country_of_birth_self_ Taiwan,0.0
+487,country_of_birth_self_ South Korea,0.0
+486,country_of_birth_self_ Scotland,0.0
+485,country_of_birth_self_ Puerto-Rico,0.0
+483,country_of_birth_self_ Poland,0.0
+482,country_of_birth_self_ Philippines,0.0
+480,country_of_birth_self_ Panama,0.0
+479,country_of_birth_self_ Outlying-U S (Guam USVI etc),0.0
+478,country_of_birth_self_ Nicaragua,0.0
+477,country_of_birth_self_ Mexico,0.0
+476,country_of_birth_self_ Laos,0.0
+475,country_of_birth_self_ Japan,0.0
+474,country_of_birth_self_ Jamaica,0.0
+473,country_of_birth_self_ Italy,0.0
+472,country_of_birth_self_ Ireland,0.0
+471,country_of_birth_self_ Iran,0.0
+470,country_of_birth_self_ India,0.0
+489,country_of_birth_self_ Thailand,0.0
+490,country_of_birth_self_ Trinadad&Tobago,0.0
+491,country_of_birth_self_ United-States,0.0
+501,own_business_or_self_employed_ 2,0.0
+508,year_ 94,0.0
+507,veterans_benefits_ 2,0.0
+506,veterans_benefits_ 1,0.0
+505,veterans_benefits_ 0,0.0
+504,fill_inc_questionnaire_for_veterans_admin_ Yes,0.0
+503,fill_inc_questionnaire_for_veterans_admin_ Not in universe,0.0
+502,fill_inc_questionnaire_for_veterans_admin_ No,0.0
+500,own_business_or_self_employed_ 1,0.0
+492,country_of_birth_self_ Vietnam,0.0
+499,own_business_or_self_employed_ 0,0.0
+498,citizenship_ Native- Born in the United States,0.0
+497,citizenship_ Native- Born in Puerto Rico or U S Outlying,0.0
+496,citizenship_ Native- Born abroad of American Parent(s),0.0
+495,citizenship_ Foreign born- U S citizen by naturalization,0.0
+494,citizenship_ Foreign born- Not a citizen of U S ,0.0
+493,country_of_birth_self_ Yugoslavia,0.0
+469,country_of_birth_self_ Hungary,0.0
+39,industry_code_ 3,0.0
+426,country_of_birth_mother_ Hungary,0.0
+466,country_of_birth_self_ Holand-Netherlands,0.0
+445,country_of_birth_mother_ Taiwan,0.0
+444,country_of_birth_mother_ South Korea,0.0
+443,country_of_birth_mother_ Scotland,0.0
+442,country_of_birth_mother_ Puerto-Rico,0.0
+440,country_of_birth_mother_ Poland,0.0
+439,country_of_birth_mother_ Philippines,0.0
+437,country_of_birth_mother_ Panama,0.0
+436,country_of_birth_mother_ Outlying-U S (Guam USVI etc),0.0
+435,country_of_birth_mother_ Nicaragua,0.0
+434,country_of_birth_mother_ Mexico,0.0
+433,country_of_birth_mother_ Laos,0.0
+432,country_of_birth_mother_ Japan,0.0
+431,country_of_birth_mother_ Jamaica,0.0
+345,migration_code_move_within_reg_ Different county same state,0.0
+429,country_of_birth_mother_ Ireland,0.0
+428,country_of_birth_mother_ Iran,0.0
+427,country_of_birth_mother_ India,0.0
+446,country_of_birth_mother_ Thailand,0.0
+447,country_of_birth_mother_ Trinadad&Tobago,0.0
+448,country_of_birth_mother_ United-States,0.0
+458,country_of_birth_self_ Ecuador,0.0
+465,country_of_birth_self_ Haiti,0.0
+464,country_of_birth_self_ Guatemala,0.0
+463,country_of_birth_self_ Greece,0.0
+462,country_of_birth_self_ Germany,0.0
+461,country_of_birth_self_ France,0.0
+460,country_of_birth_self_ England,0.0
+459,country_of_birth_self_ El-Salvador,0.0
+457,country_of_birth_self_ Dominican-Republic,0.0
+449,country_of_birth_mother_ Vietnam,0.0
+456,country_of_birth_self_ Cuba,0.0
+455,country_of_birth_self_ Columbia,0.0
+454,country_of_birth_self_ China,0.0
+453,country_of_birth_self_ Canada,0.0
+452,country_of_birth_self_ Cambodia,0.0
+451,country_of_birth_self_ ?,0.0
+450,country_of_birth_mother_ Yugoslavia,0.0
+72,occupation_code_ 12,0.0
+339,migration_code_change_in_reg_ Different state same division,0.0
+344,migration_code_move_within_reg_ Abroad,0.0
+98,occupation_code_ 36,0.0
+235,state_of_previous_residence_ Connecticut,0.0
+234,state_of_previous_residence_ Colorado,0.0
+233,state_of_previous_residence_ California,0.0
+99,occupation_code_ 37,0.0
+231,state_of_previous_residence_ Arizona,0.0
+100,occupation_code_ 38,0.0
+102,occupation_code_ 4,0.0
+228,state_of_previous_residence_ Abroad,0.0
+227,state_of_previous_residence_ ?,0.0
+226,region_of_previous_residence_ West,0.0
+225,region_of_previous_residence_ South,0.0
+106,occupation_code_ 43,0.0
+223,region_of_previous_residence_ Northeast,0.0
+222,region_of_previous_residence_ Midwest,0.0
+221,region_of_previous_residence_ Abroad,0.0
+220,tax_filer_status_ Single,0.0
+107,occupation_code_ 44,0.0
+236,state_of_previous_residence_ Delaware,0.0
+238,state_of_previous_residence_ Florida,0.0
+258,state_of_previous_residence_ New Jersey,0.0
+97,occupation_code_ 35,0.0
+256,state_of_previous_residence_ Nevada,0.0
+82,occupation_code_ 21,0.0
+254,state_of_previous_residence_ Montana,0.0
+83,occupation_code_ 22,0.0
+84,occupation_code_ 23,0.0
+85,occupation_code_ 24,0.0
+90,occupation_code_ 29,0.0
+91,occupation_code_ 3,0.0
+92,occupation_code_ 30,0.0
+247,state_of_previous_residence_ Maine,0.0
+246,state_of_previous_residence_ Louisiana,0.0
+245,state_of_previous_residence_ Kentucky,0.0
+93,occupation_code_ 31,0.0
+243,state_of_previous_residence_ Iowa,0.0
+94,occupation_code_ 32,0.0
+95,occupation_code_ 33,0.0
+96,occupation_code_ 34,0.0
+108,occupation_code_ 45,0.0
+217,tax_filer_status_ Joint both under 65,0.0
+111,occupation_code_ 6,0.0
+215,tax_filer_status_ Head of household,0.0
+139,marital_status_ Never married,0.0
+140,marital_status_ Separated,0.0
+188,hispanic_Origin_ Chicano,0.0
+141,marital_status_ Widowed,0.0
+142,major_industry_code_ Agriculture,0.0
+143,major_industry_code_ Armed Forces,0.0
+144,major_industry_code_ Business and repair services,0.0
+183,race_ Black,0.0
+147,major_industry_code_ Education,0.0
+150,major_industry_code_ Forestry and fisheries,0.0
+151,major_industry_code_ Hospital services,0.0
+152,major_industry_code_ Manufacturing-durable goods,0.0
+178,major_occupation_code_ Sales,0.0
+176,major_occupation_code_ Professional specialty,0.0
+175,major_occupation_code_ Private household services,0.0
+173,major_occupation_code_ Other service,0.0
+171,major_occupation_code_ Machine operators assmblrs & inspctrs,0.0
+138,marital_status_ Married-spouse absent,0.0
+192,hispanic_Origin_ Mexican-American,0.0
+137,marital_status_ Married-civilian spouse present,0.0
+116,education_ 11th grade,0.0
+214,full_or_part_time_employment_stat_ Unemployed part- time,0.0
+213,full_or_part_time_employment_stat_ Unemployed full-time,0.0
+212,full_or_part_time_employment_stat_ PT for non-econ reasons usually FT,0.0
+114,occupation_code_ 9,0.0
+210,full_or_part_time_employment_stat_ PT for econ reasons usually FT,0.0
+115,education_ 10th grade,0.0
+208,full_or_part_time_employment_stat_ Full-time schedules,0.0
+119,education_ 5th or 6th grade,0.0
+136,marital_status_ Married-A F spouse present,0.0
+121,education_ 9th grade,0.0
+125,education_ Children,0.0
+127,education_ High school graduate,0.0
+200,member_of_a_labor_union_ Yes,0.0
+130,education_ Prof school degree (MD DDS DVM LLB JD),0.0
+132,enrolled_in_edu_inst_last_wk_ College or university,0.0
+134,enrolled_in_edu_inst_last_wk_ Not in universe,0.0
+81,occupation_code_ 20,0.0
+259,state_of_previous_residence_ New Mexico,0.0
+343,migration_code_move_within_reg_ ?,0.0
+322,detailed_household_summary_in_household_ Other relative of householder,0.0
+320,detailed_household_summary_in_household_ Householder,0.0
+318,detailed_household_summary_in_household_ Child under 18 never married,0.0
+317,detailed_household_summary_in_household_ Child under 18 ever married,0.0
+316,detailed_household_summary_in_household_ Child 18 or older,0.0
+315,detailed_household_and_family_stat_ Spouse of householder,0.0
+314,detailed_household_and_family_stat_ Spouse of RP of unrelated subfamily,0.0
+312,detailed_household_and_family_stat_ RP of unrelated subfamily,0.0
+311,detailed_household_and_family_stat_ Other Rel <18 spouse of subfamily RP,0.0
+310,detailed_household_and_family_stat_ Other Rel <18 never married RP of subfamily,0.0
+309,detailed_household_and_family_stat_ Other Rel <18 never marr not in subfamily,0.0
+308,detailed_household_and_family_stat_ Other Rel <18 never marr child of subfamily RP,0.0
+307,detailed_household_and_family_stat_ Other Rel <18 ever marr not in subfamily,0.0
+306,detailed_household_and_family_stat_ Other Rel <18 ever marr RP of subfamily,0.0
+305,detailed_household_and_family_stat_ Other Rel 18+ spouse of subfamily RP,0.0
+304,detailed_household_and_family_stat_ Other Rel 18+ never marr not in subfamily,0.0
+303,detailed_household_and_family_stat_ Other Rel 18+ never marr RP of subfamily,0.0
+302,detailed_household_and_family_stat_ Other Rel 18+ ever marr not in subfamily,0.0
+321,detailed_household_summary_in_household_ Nonrelative of householder,0.0
+323,detailed_household_summary_in_household_ Spouse of householder,0.0
+260,state_of_previous_residence_ New York,0.0
+324,migration_code_change_in_msa_ ?,0.0
+342,migration_code_change_in_reg_ Same county,0.0
+341,migration_code_change_in_reg_ Not in universe,0.0
+340,migration_code_change_in_reg_ Nonmover,0.0
+161,major_industry_code_ Retail trade,0.0
+338,migration_code_change_in_reg_ Different region,0.0
+337,migration_code_change_in_reg_ Different division same region,0.0
+336,migration_code_change_in_reg_ Different county same state,0.0
+335,migration_code_change_in_reg_ Abroad,0.0
+334,migration_code_change_in_reg_ ?,0.0
+332,migration_code_change_in_msa_ Not identifiable,0.0
+74,occupation_code_ 14,0.0
+330,migration_code_change_in_msa_ NonMSA to nonMSA,0.0
+329,migration_code_change_in_msa_ NonMSA to MSA,0.0
+328,migration_code_change_in_msa_ MSA to nonMSA,0.0
+327,migration_code_change_in_msa_ MSA to MSA,0.0
+326,migration_code_change_in_msa_ Abroad to nonMSA,0.0
+325,migration_code_change_in_msa_ Abroad to MSA,0.0
+301,detailed_household_and_family_stat_ Other Rel 18+ ever marr RP of subfamily,0.0
+300,detailed_household_and_family_stat_ Nonfamily householder,0.0
+299,detailed_household_and_family_stat_ In group quarters,0.0
+298,detailed_household_and_family_stat_ Householder,0.0
+277,state_of_previous_residence_ Wyoming,0.0
+276,state_of_previous_residence_ Wisconsin,0.0
+275,state_of_previous_residence_ West Virginia,0.0
+274,state_of_previous_residence_ Virginia,0.0
+273,state_of_previous_residence_ Vermont,0.0
+272,state_of_previous_residence_ Utah,0.0
+271,state_of_previous_residence_ Texas,0.0
+270,state_of_previous_residence_ Tennessee,0.0
+269,state_of_previous_residence_ South Dakota,0.0
+268,state_of_previous_residence_ South Carolina,0.0
+267,state_of_previous_residence_ Pennsylvania,0.0
+266,state_of_previous_residence_ Oregon,0.0
+265,state_of_previous_residence_ Oklahoma,0.0
+264,state_of_previous_residence_ Ohio,0.0
+263,state_of_previous_residence_ Not in universe,0.0
+262,state_of_previous_residence_ North Dakota,0.0
+261,state_of_previous_residence_ North Carolina,0.0
+278,detailed_household_and_family_stat_ Child 18+ ever marr Not in a subfamily,0.0
+279,detailed_household_and_family_stat_ Child 18+ ever marr RP of subfamily,0.0
+280,detailed_household_and_family_stat_ Child 18+ never marr Not in a subfamily,0.0
+290,detailed_household_and_family_stat_ Grandchild 18+ ever marr not in subfamily,0.0
+297,detailed_household_and_family_stat_ Grandchild <18 never marr not in subfamily,0.0
+79,occupation_code_ 19,0.0
+295,detailed_household_and_family_stat_ Grandchild <18 never marr RP of subfamily,0.0
+294,detailed_household_and_family_stat_ Grandchild <18 ever marr not in subfamily,0.0
+293,detailed_household_and_family_stat_ Grandchild 18+ spouse of subfamily RP,0.0
+292,detailed_household_and_family_stat_ Grandchild 18+ never marr not in subfamily,0.0
+291,detailed_household_and_family_stat_ Grandchild 18+ never marr RP of subfamily,0.0
+289,detailed_household_and_family_stat_ Grandchild 18+ ever marr RP of subfamily,0.0
+281,detailed_household_and_family_stat_ Child 18+ never marr RP of subfamily,0.0
+288,detailed_household_and_family_stat_ Child under 18 of RP of unrel subfamily,0.0
+287,detailed_household_and_family_stat_ Child <18 spouse of subfamily RP,0.0
+286,detailed_household_and_family_stat_ Child <18 never marr not in subfamily,0.0
+285,detailed_household_and_family_stat_ Child <18 never marr RP of subfamily,0.0
+284,detailed_household_and_family_stat_ Child <18 ever marr not in subfamily,0.0
+283,detailed_household_and_family_stat_ Child <18 ever marr RP of subfamily,0.0
+282,detailed_household_and_family_stat_ Child 18+ spouse of subfamily RP,0.0
+509,year_ 95,0.0
