@@ -92,7 +92,7 @@ def safe_creation_directory(path):
         logging.info(f'ERROR - during directory creation: {err}')
 
 
-def save_model(model, output_dir: str):
+def save_model(model, output_dir: str, name=None):
     """
     Save the model fitted into a .pkl file
     :param model: model fitted - an scikit learn object in our case
@@ -102,7 +102,8 @@ def save_model(model, output_dir: str):
     try:
         safe_creation_directory(output_dir)
         full_ouput_dir = os.path.join(CURRENT_DIR, output_dir)
-        return joblib.dump(model, f'{full_ouput_dir}/{type(model).__name__}.pkl')
+        name_result = name or type(model).__name__
+        return joblib.dump(model, f'{full_ouput_dir}/{name_result}.pkl')
     except Exception as err:
         logging.info(f'ERROR - during model dump: {err}')
 

@@ -5,6 +5,7 @@ date: 03/09/2021
 """
 import mlflow
 import optuna
+import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from optuna.integration.mlflow import MLflowCallback
@@ -17,6 +18,7 @@ from census_predictions.config import USELESS_COLS, LABEL_COL, ENCODING_LABEL, \
 from census_predictions.utils import split_data, encode_label, save_model, \
     safe_creation_directory
 from census_predictions.MlPipeline import MlPipeline
+from census_predictions.Features import Features
 
 
 class CensusModel(MlPipeline):
@@ -36,13 +38,24 @@ class CensusModel(MlPipeline):
     def compute_census_continuous_training(self):
         """
         Compute ml pipeline for census data
-        :return:
+        :return: a pkl object with the "best" ml pipeline
         """
         self.train_labels, self.train_data = \
             self.preprocess_data(self.train_df, LABEL_COL, ENCODING_LABEL, USELESS_COLS)
         self.true_labels, self.eval_data = \
             self.preprocess_data(self.train_df, LABEL_COL, ENCODING_LABEL, USELESS_COLS)
-        self.study_best_model()
+        num_cols = self._get_num_cols(self.train_data)
+        cat_cols = self._get_cat_cols(self.train_data)
+        best_params, best_perf = self.study_best_model()
+        logging.info(f'Best f1-score achieved : {best_perf}')
+        logging.info(f'Best parameters are: {best_params}')
+        final_ml_pipeline = self.compute_model(
+            self.train_randomforest(**best_params),
+            self.train_labels,
+            self.train_data
+        )
+        save_model(final_ml_pipeline, MODEL_OUTPUT_DIR, 'final_ml_pipeline')
+        self.compute_features_importances(num_cols, cat_cols, final_ml_pipeline, RESULTS_OUTPUT_DIR)
 
     @staticmethod
     def preprocess_data(df, label_col, target_encoding, useless_col=None):
@@ -165,3 +178,23 @@ class CensusModel(MlPipeline):
                 'precision': round(precision_score(true_labels, predictions), 4),
                 'roc_auc': round(roc_auc_score(true_labels, predictions), 4),
                 'f1_score': round(f1_score(true_labels, predictions), 4)}
+
+    @staticmethod
+    def _get_num_cols(df: pd.DataFrame):
+        return df.select_dtypes(exclude=['object']).columns
+
+    @staticmethod
+    def _get_cat_cols(df: pd.DataFrame):
+        return df.select_dtypes(include=['object']).columns
+
+    def compute_features_importances(self, num_cols, cat_cols, sk_pipeline, output_dir):
+        features = Features(num_cols, cat_cols, sk_pipeline)
+        values = np.round(self._get_values_importances(sk_pipeline), 4)
+        df_result = pd.DataFrame(zip(features.all, values),
+                                 columns=['feature', 'coefficient'])
+        return df_result.sort_values(by=['coefficient'], ascending=False)\
+            .to_csv(f'{CURRENT_DIR}/{output_dir}/features_importances.csv')
+
+    @staticmethod
+    def _get_values_importances(sk_pipeline):
+        return sk_pipeline.named_steps['model'].feature_importances_

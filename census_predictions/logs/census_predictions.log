@@ -28,3 +28,6 @@ root - INFO - SUCCESS - output is stored in /Users/damien/Documents/us_census/ce
 root - INFO - SUCCESS - output is stored in /Users/damien/Documents/us_census/census_predictions/results
 root - INFO - SUCCESS - output is stored in /Users/damien/Documents/us_census/census_predictions/results
 root - INFO - SUCCESS - output is stored in /Users/damien/Documents/us_census/census_predictions/results
+root - INFO - Best f1-score achieved : 0.3189
+root - INFO - Best parameters are: {'n_estimators': 120, 'max_depth': 8}
+root - INFO - SUCCESS - output is stored in /Users/damien/Documents/us_census/census_predictions/models
