@@ -9,7 +9,6 @@ import sys
 from census_predictions.utils import parse_args, read_file
 from census_predictions.config import COLS
 from census_predictions.CensusModel import CensusModel
-from census_predictions.EvalCensusModel import EvalCensusModel
 
 
 def main(train_df, eval_df):
